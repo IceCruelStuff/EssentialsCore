@@ -1,2 +1,11 @@
-# EssentialsCore
-Add a lot Commands To Your Server!
+# Download
+Phar : Coming Soon!
+
+
+# Working on right now :
+
+- [ ] Fly Command
+
+ # Developer:
+ 
+ * xXNiceYT - Main Developer.

@@ -12,6 +12,7 @@ use Core\Commands\Fly;
 use Core\Commands\Feed;
 use Core\Commands\Heal;
 use Core\Commands\Spawn;
+use Core\Commands\SetSpawn;
 
 class Main extends PluginBase{
 
@@ -35,6 +36,7 @@ class Main extends PluginBase{
 		$this->getServer()->getCommandMap()->register("feed", new feed("feed", $this));
 		$this->getServer()->getCommandMap()->register("heal", new heal("heal", $this));
 	        $this->getServer()->getCommandMap()->register("spawn", new spawn("spawn", $this));
+	        $this->getServer()->getCommandMap()->register("setspawn", new setspawn("setspawn", $this));
     }
 
 	public function onDisable(){

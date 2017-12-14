@@ -13,6 +13,8 @@ use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\player\PlayerMoveEvent;
 
+use pocketmine\utils\TextFormat as C;
+
 use Core\Main;
 
 class Fly extends PluginCommand{
@@ -20,6 +22,7 @@ class Fly extends PluginCommand{
     public function __construct($name, Main $plugin){
         parent::__construct($name, $plugin);
         $this->setDescription("Let you fly");
+        $this->setAliases(["Fly"]);
         $this->setPermission("core.fly");
     }
      
@@ -32,26 +35,26 @@ class Fly extends PluginCommand{
         switch ($args[0]){
             case "on":
                     if (!$sender->hasPermission("core.fly")) {
-                        $sender->sendMessage("§cYou are not allow to do that.");
+                        $sender->sendMessage(C::RED . "You are not allow to do that.");
                         return false;
                     }
                         $sender->setAllowFlight(true);
-                        $sender->sendMessage("§eFly Mode : §aEnabled.");
+                        $sender->sendMessage(C::YELLOW . "Fly Mode :" . C::GREEN . " Enabled.");
             break;
             case "off":
                     if (!$sender->hasPermission("core.fly")) {
-                        $sender->sendMessage("§cYou are not allow to do that.");
+                        $sender->sendMessage(C::RED . "You are not allow to do that.");
                         return false;
                     }
                         $sender->setAllowFlight(false);
-                        $sender->sendMessage("§eFly Mode : §cDisabled.");
+                        $sender->sendMessage(C::YELLOW . "Fly Mode :" . C::RED . " Disabled.");
             break;
             default:
             $sender->sendMessage("Usage: /fly <on|off>");
             break;
             }
         }else{
-          $sender->sendMessage("§cYou are not In-Game.");
+          $sender->sendMessage(C::RED . "You are not In-Game.");
         }
             return true;
     }

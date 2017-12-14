@@ -1,6 +1,9 @@
 # Download
 Phar : Coming Soon!
 
+# Important
+
+Fly will take damage to avoid damage please land in ground to not take damage.
 
 # Working on right now :
 

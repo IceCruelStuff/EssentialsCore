@@ -11,6 +11,7 @@ use pocketmine\plugin\PluginBase;
 use Core\Commands\Fly;
 use Core\Commands\Feed;
 use Core\Commands\Heal;
+use Core\Commands\Spawn;
 
 class Main extends PluginBase{
 
@@ -33,6 +34,7 @@ class Main extends PluginBase{
 		$this->getServer()->getCommandMap()->register("fly", new fly("fly", $this));
 		$this->getServer()->getCommandMap()->register("feed", new feed("feed", $this));
 		$this->getServer()->getCommandMap()->register("heal", new heal("heal", $this));
+	        $this->getServer()->getCommandMap()->register("spawn", new spawn("spawn", $this));
     }
 
 	public function onDisable(){

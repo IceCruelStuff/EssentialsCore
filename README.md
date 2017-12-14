@@ -22,6 +22,8 @@ You can ask us to add anything if you want to at Issues bar.
 
 - [x] Spawn Command
 
+- [x] SetSpawn Command
+
 You can ask us to add anything if you want to at Issues bar.
 
  # Developer:

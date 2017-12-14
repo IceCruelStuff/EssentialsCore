@@ -7,7 +7,7 @@ Fly will take damage to avoid damage please land in ground to not take damage.
 
 # Working on right now :
 
-- [ ] God Command
+- [ ] IDK
 
 You can ask us to add anything if you want to at Issues bar.
 

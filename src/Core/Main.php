@@ -13,6 +13,7 @@ use Core\Commands\Feed;
 use Core\Commands\Heal;
 use Core\Commands\Spawn;
 use Core\Commands\SetSpawn;
+use Core\Commands\Ping;
 
 class Main extends PluginBase{
 
@@ -37,6 +38,7 @@ class Main extends PluginBase{
 		$this->getServer()->getCommandMap()->register("heal", new heal("heal", $this));
 	        $this->getServer()->getCommandMap()->register("spawn", new spawn("spawn", $this));
 	        $this->getServer()->getCommandMap()->register("setspawn", new setspawn("setspawn", $this));
+	        $this->getServer()->getCommandMap()->register("ping", new ping("ping", $this));
     }
 
 	public function onDisable(){

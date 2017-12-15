@@ -23,6 +23,8 @@ You can ask us to add anything if you want to at Issues bar.
 
 - [x] SetSpawn Command
 
+- [x] Ping Command
+
 You can ask us to add anything if you want to at Issues bar.
 
  # Developer:

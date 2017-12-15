@@ -1,6 +1,9 @@
 # Download
 Phar : Coming Soon!
 
+# Permissions Node
+You can find Permissions Node [here](https://github.com/xXNiceAssasinl0/EssentialsCore/wiki/Permissions-Node)
+
 # Important
 
 Fly will take damage to avoid damage please land in ground to not take damage.

@@ -30,11 +30,14 @@ You can ask us to add anything if you want to at Issues bar.
 
 - [x] KickAll Command
 
+- [x] Ops Command
+
 You can ask us to add anything if you want to at Issues bar.
 
  # Developer:
  
  * xXNiceYT - Main Developer.
  
- 
  * KickAll Command - EssentialsPE Plugin.
+ 
+ * Ops - ChatToolPro Plugin.

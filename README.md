@@ -28,8 +28,13 @@ You can ask us to add anything if you want to at Issues bar.
 
 - [x] Ping Command
 
+- [x] KickAll Command
+
 You can ask us to add anything if you want to at Issues bar.
 
  # Developer:
  
  * xXNiceYT - Main Developer.
+ 
+ 
+ * KickAll Command - EssentialsPE Plugin.

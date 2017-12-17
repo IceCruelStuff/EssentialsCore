@@ -32,6 +32,8 @@ You can ask us to add anything if you want to at Issues bar.
 
 - [x] Ops Command
 
+- [x] Top Command
+
 You can ask us to add anything if you want to at Issues bar.
 
  # Developer:

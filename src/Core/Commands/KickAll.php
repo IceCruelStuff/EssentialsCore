@@ -32,7 +32,7 @@ class KickAll extends PluginCommand{
                         return false;
                     }
                     if (count($args) < 1){
-                        $reason = "Unknown";
+                        $reason = "No Reason.";
             }else{
                         $reason = implode(" ", $args);
                     }
@@ -41,7 +41,7 @@ class KickAll extends PluginCommand{
                 $p->kick($reason, false);
             }
         }
-        $sender->sendMessage(C::AQUA . "All Players has been Kicked.");
+        $sender->sendMessage(C::AQUA . "All Players has been Kicked for " . C::GREEN . $reason);
           return true;
     }
 }
